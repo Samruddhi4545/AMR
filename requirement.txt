@@ -1,0 +1,24 @@
+# Core data libraries
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Machine Learning
+scikit-learn
+tensorflow
+torch
+xgboost
+
+# Time-series forecasting
+statsmodels
+
+# Dashboard / Web App
+streamlit
+
+# Utilities
+joblib
+sqlalchemy
