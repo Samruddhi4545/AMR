@@ -31,7 +31,7 @@ input_data = pd.DataFrame({
 if st.sidebar.button("Predict Outcome"):
     prediction = model.predict(input_data)[0]
     st.subheader("Predicted Patient Outcome")
-    st.write(f"➡️ {outcome_map[prediction]}")
+    st.write(f"{outcome_map[prediction]}")
 st.subheader("Resistance Trends (Demo Visualization)")
 
 # Example: antibiotic resistance distribution
