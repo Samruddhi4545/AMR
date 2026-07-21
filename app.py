@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
-import joblib
-import seaborn as sns
+import joblib #type:ignore
+import seaborn as sns #type:ignore
 import matplotlib.pyplot as plt
 model = joblib.load("amr_prediction_model.pkl")
 st.title("Antimicrobial Resistance Prediction Dashboard")
